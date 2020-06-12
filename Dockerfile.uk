@@ -1,4 +1,4 @@
-FROM deployable/acng:latest
+FROM digitalsparky/acng:latest
 
 ENV ACNG_LOCALE="uk"
 

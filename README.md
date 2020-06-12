@@ -1,6 +1,6 @@
 # apt-cacher-ng docker image
 
-[`deployable/acng`](https://hub.docker.com/r/deployable/acng/)
+[`digitalsparky/acng`](https://hub.docker.com/r/digitalsparky/acng/)
 
 Apt-Cacher NG is a caching proxy for linux distribution packages, primarily Debian. https://www.unix-ag.uni-kl.de/~bloch/acng/
 
@@ -14,18 +14,18 @@ This image for apt-cacher-ng config adds support for:
 - NPM packages from https://registry.yarnpkg.com and https://registry.npmjs.org (proxied CONNECT only)
 - Downloads from http://nodejs.org
 
-The `au`, `uk` and `us` images configure local mirror backends when geo mirrors are not available. 
+The `au`, `uk` and `us` images configure local mirror backends when geo mirrors are not available.
 
 ## Docker Registry Images
 
-The [`deployable/acng` repository is available on Docker hub](https://hub.docker.com/r/deployable/acng/). 
+The [`digitalsparky/acng` repository is available on Docker hub](https://hub.docker.com/r/digitalsparky/acng/).
 
 The image tags available to install are:
 ```
-deployable/acng
-deployable/acng:latest-au
-deployable/acng:latest-uk
-deployable/acng:latest-us
+digitalsparky/acng
+digitalsparky/acng:latest-au
+digitalsparky/acng:latest-uk
+digitalsparky/acng:latest-us
 ```
 
 ## Run
@@ -36,7 +36,7 @@ docker run \
   --detach \
   --volume apt-cacher-ng-vol:/var/cache/apt-cacher-ng:rw \
   --publish 3142:3142 \
-  deployable/acng
+  digitalsparky/acng
 ```
 
 
@@ -54,7 +54,7 @@ Run a localised image (au, uk, us)
 
     ./make.sh run:us
 
-Rebuild and run 
+Rebuild and run
 
     ./make.sh rebuild
 
@@ -66,21 +66,20 @@ Build a locale image with local backends configured (`au`, `uk`, `us`)
 
 ## Mirror and Backend lists
 
-The latest mirrors can be fetched with `src/fetch-mirrors.js`. This script Requires Node.js 8+ 
+The latest mirrors can be fetched with `src/fetch-mirrors.js`. This script Requires Node.js 8+
 
 It will download and parse the latest Centos, Fedora, Epel and Apache mirror lists into `files/*_mirrors` files for acng.
 
-Configure your selected backends from those mirrors lists in `files/backends_{name}`. 
+Configure your selected backends from those mirrors lists in `files/backends_{name}`.
 There are packaged au, uk and us backends
 
-The default acng config in the `deployable/acng:latest` tag has no opinion on backends 
-`deployable/acng:latest-au` includes the AU backends, `:latest-uk` and `:latest-us` tags are built as well. 
+The default acng config in the `digitalsparky/acng:latest` tag has no opinion on backends
+`digitalsparky/acng:latest-au` includes the AU backends, `:latest-uk` and `:latest-us` tags are built as well.
 
 
-## About 
+## About
 
-Docker Hub: https://hub.docker.com/r/deployable/acng/
-GitHub: https://github.com/deployable/docker-apt-cacher-ng
+Docker Hub: https://hub.docker.com/r/digitalsparky/acng/
+GitHub: https://github.com/digitalsparky/docker-apt-cacher-ng
 
-Matt Hoyle - code atat deployable.co
-
+Forked from https://github.com/deployable/docker-apt-cacher-ng to add features and provide full SSL connect access via proxy for repos that use SSL.

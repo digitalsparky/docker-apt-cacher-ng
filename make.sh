@@ -7,7 +7,7 @@ rundir=$($readlink -f "${0%/*}")
 cd "$rundir"
 
 NAME="acng"
-SCOPE="deployable"
+SCOPE="digitalsparky"
 SCOPE_NAME="${SCOPE}/${NAME}"
 CONTAINER_NAME="${NAME}"
 
