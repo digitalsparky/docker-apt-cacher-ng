@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  acng:
+    image: digitalsparky/acng:latest-uk
+    ports:
+      - 3142:3142
+    networks:
+      - acng
+    volumes:
+      - apt-cacher-ng-vol:/var/cache/apt-cacher-ng:rw
+    restart: always
+
+networks:
+  acng:
+
+volumes:
+  apt-cacher-ng-vol:
