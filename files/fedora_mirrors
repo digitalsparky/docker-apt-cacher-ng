@@ -5,6 +5,7 @@ http://fedora.mirror.digitalpacific.com.au/linux
 http://ftp.iinet.net.au/pub/fedora/linux
 http://ftp.swin.edu.au/fedora
 http://mirror.aarnet.edu.au/pub/fedora/linux
+http://mirror.as24220.net/pub/fedora
 http://mirror.optus.net/fedora/linux
 http://mirror.realcompute.io/fedora/linux
 http://syd.mirror.rackspace.com/fedora
@@ -15,7 +16,6 @@ http://mirrors.netix.net/fedora
 http://mirrors.uni-ruse.bg/fedora/linux
 http://fedora.c3sl.ufpr.br/linux
 http://mirror.globo.com/fedora/linux
-http://ftp.byfly.by/pub/fedoraproject.org/linux
 http://mirror.datacenter.by/pub/fedoraproject.org/linux
 http://mirror.datacenter.by/pub/fedoraproject.org/alt
 http://fedora.mirror.gtcomm.net
@@ -26,6 +26,7 @@ http://mirror.its.dal.ca/pub/fedora/linux
 http://mirror.its.sfu.ca/mirror/fedora/linux
 http://fedora-mirror.zerocopy.io/fedora/linux
 http://mirror.init7.net/fedora/fedora/linux
+http://mirror1.cl.netactuate.com/fedora
 http://mirrors.yun-idc.com/fedora
 http://mirror.lzu.edu.cn/fedora
 http://mirrors.163.com/fedora
@@ -50,7 +51,6 @@ http://mirror2.hs-esslingen.de/fedora/linux
 http://mirror.de.leaseweb.net/fedora/linux
 http://mirror.euserv.net/linux/fedora/linux
 http://mirror.infonline.de/fedora/linux
-http://mirror.netcologne.de/fedora/linux
 http://mirrors.n-ix.net/fedora/linux
 http://mirror.speedpartner.de/fedora/linux
 http://mirror.easyspeedy.com/fedora
@@ -71,13 +71,13 @@ http://mirrors.ircam.fr/pub/fedora/linux
 http://lon.mirror.rackspace.com/fedora
 http://mirror.bytemark.co.uk/fedora/linux
 http://mirror.ox.ac.uk/sites/download.fedora.redhat.com/pub/fedora/linux
+http://www.mirrorservice.org/sites/dl.fedoraproject.org/pub/fedora/linux
 http://mirror.sucs.org/pub/linux/fedora
 http://ftp.otenet.gr/linux/fedora/linux
 http://ftp.cuhk.edu.hk/pub/Linux/fedora
 http://ftp.cuhk.edu.hk/pub/linux/fedora
 http://hkg.mirror.rackspace.com/fedora
 http://mirror.szerverem.hu/fedora/linux
-http://fedora.dionipe.id
 http://fedora.mirror.angkasa.id/pub/fedora/linux
 http://kambing.ui.edu/fedora
 http://mirror.isoc.org.il/pub/fedora
@@ -93,12 +93,11 @@ http://mirror.hoster.kz/fedora/fedora/linux
 http://mirror.ps.kz/fedora
 http://mirror.vpsnet.com/fedora/linux
 http://fedora.mirror.root.lu
-http://my.fedora.ipserverone.com/fedora/linux
+http://fedora.ipserverone.com/fedora/linux
 http://fedora.mirror.wearetriple.com/linux
 http://ftp.nluug.nl/pub/os/Linux/distr/fedora/linux
 http://ftp.nluug.nl/os/Linux/distr/fedora-secondary
 http://ftp.tudelft.nl/download.fedora.redhat.com/linux
-http://mirror.i3d.net/pub/fedora/linux
 http://fedora.mirror.liteserver.nl/linux
 http://mirror.nl.leaseweb.net/fedora/linux
 http://mirror.serverion.com/fedora
@@ -122,7 +121,7 @@ http://mirror.yandex.ru/fedora-secondary
 http://ftp.acc.umu.se/mirror/fedora/linux
 http://ftp.lysator.liu.se/pub/fedora/linux
 http://mirror.zetup.net/fedora-enchilada
-http://sg.fedora.ipserverone.com/fedora/linux
+http://download.nus.edu.sg/mirror/fedora
 http://ftp.upjs.sk/pub/fedora/linux
 http://mirror1.ku.ac.th/fedora
 http://mirror2.totbb.net/fedora/linux
