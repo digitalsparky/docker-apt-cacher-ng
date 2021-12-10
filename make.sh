@@ -23,7 +23,7 @@ run_release(){
 }
 
 run_build(){
-  docker pull debian:9
+  docker pull debian:stable
   run_build_mirrors
   run_build_plain
   run_build_au
