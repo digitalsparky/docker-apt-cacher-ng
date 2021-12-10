@@ -34,7 +34,7 @@ class Fetch {
 
       line_reader.on('line', line => {
         // poor mans csv parsing, remove leading and trailing `"`s
-        // then split the string on `","`. 
+        // then split the string on `","`.
         // Only works when every field is quoted with `"`
         line.replace(/^"/, '').replace(/"$/, '');
         let fields = line.split(/","/);
@@ -139,7 +139,7 @@ class Fetch {
     })();
   }
 
-  // Write out the result of a promise to file. 
+  // Write out the result of a promise to file.
   // promise result should be an array of http mirrors
   static writeMirror(file, mirror_promise) {
     return (0, _bluebird.coroutine)(function* () {
