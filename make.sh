@@ -17,7 +17,11 @@ shift
 ####
 
 run_release(){
-  git tag $(date +%Y%m%d)
+  if ! [[ `git status --porcelain` ]]; then
+    echo "No commits are pending! Please commit before you release."
+    exit 1
+  fi
+  git tag $(git rev-parse --short HEAD)
   git push
   git push --tags
   for package in digitalsparky/acng:latest digitalsparky/acng:latest-au digitalsparky/acng:latest-uk digitalsparky/acng:latest-us; do

@@ -7,8 +7,7 @@ RUN set -uex; \
     ln -sf /dev/stdout /var/log/apt-cacher-ng/apt-cacher.log; \
     ln -sf /dev/stderr /var/log/apt-cacher-ng/apt-cacher.err; \
     apt-get clean all; \
-    rm -rf /var/lib/apt/lists/*; \
-    useradd --system --no-create-home --shell=/sbin/nologin acng;
+    rm -rf /var/lib/apt/lists/*;
 
 COPY files/* /etc/apt-cacher-ng/
 
@@ -33,7 +32,6 @@ RUN set -uex; \
 FROM localised
 EXPOSE 3142
 VOLUME ["/var/cache/apt-cacher-ng"]
-USER acng
 
 ENTRYPOINT ["/usr/sbin/apt-cacher-ng"]
 CMD ["-c","/etc/apt-cacher-ng"]
