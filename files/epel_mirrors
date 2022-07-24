@@ -93,6 +93,7 @@ http://ge.mirror.cloud9.ge/epel
 http://repos.silknet.com/epel
 http://epel.silknet.com
 http://ftp.cc.uoc.gr/pub/linux/epel
+http://ftp.cc.uoc.gr/mirrors/linux/centos-stream
 http://hkg.mirror.rackspace.com/epel
 http://hkg.mirror.rackspace.com/centos-stream
 http://hk.mirrors.thegigabit.com/epel
@@ -163,7 +164,6 @@ http://mirrors.hostico.ro/fedora/epel
 http://mirrors.hostico.ro/centos-stream
 http://mirrors.nav.ro/epel
 http://mirrors.nxthost.com/epel
-http://mirror.etf.bg.ac.rs/epel
 http://ftp.nsc.ru/pub/epel
 http://ftp.nsc.ru/pub/centos-9
 http://mirror.linux-ia64.org/epel
@@ -252,18 +252,12 @@ http://mirror.usi.edu/pub/fedora-secondary
 http://mirror.usi.edu/pub/alt
 http://mirror.usi.edu/pub/centos-stream
 http://nnenix.mm.fcix.net/epel
+http://ohioix.mm.fcix.net/epel
 http://ord.mirror.rackspace.com/epel
 http://ord.mirror.rackspace.com/centos-stream
 http://packages.oit.ncsu.edu/epel
 http://paducahix.mm.fcix.net/epel
-http://pubmirror1.math.uh.edu/fedora-buffet/epel
-http://pubmirror1.math.uh.edu/fedora-buffet/fedora-secondary
-http://pubmirror1.math.uh.edu/fedora-buffet/archive
-http://pubmirror1.math.uh.edu/fedora-buffet/alt
-http://pubmirror2.math.uh.edu/fedora-buffet/epel
-http://pubmirror3.math.uh.edu/fedora-buffet/epel
 http://reflector.westga.edu/repos/Fedora-EPEL
 http://repos.eggycrew.com/centos-stream
 http://ridgewireless.mm.fcix.net/epel
 http://ridgewireless.mm.fcix.net/centos-stream
-http://mirrors.bkns.vn/epel

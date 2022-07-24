@@ -23,7 +23,7 @@ run_release(){
 }
 
 run_build(){
-  docker pull debian:stable
+  docker pull debian:latest
   run_build_mirrors
   run_build_plain
   run_build_au
@@ -36,15 +36,15 @@ run_build_plain(){
 }
 run_build_au(){
   local tag=${1:-latest-au}
-  docker build -f Dockerfile.au -t ${SCOPE_NAME}:$tag .
+  docker build --build-arg "locale=au" -t ${SCOPE_NAME}:$tag .
 }
 run_build_uk(){
   local tag=${1:-latest-uk}
-  docker build -f Dockerfile.uk -t ${SCOPE_NAME}:$tag .
+  docker build --build-arg "locale=uk" -t ${SCOPE_NAME}:$tag .
 }
 run_build_us(){
   local tag=${1:-latest-us}
-  docker build -f Dockerfile.us -t ${SCOPE_NAME}:$tag .
+  docker build --build-arg "locale=us" -t ${SCOPE_NAME}:$tag .
 }
 
 run_build_mirrors(){

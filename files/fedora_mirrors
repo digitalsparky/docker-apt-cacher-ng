@@ -73,9 +73,9 @@ http://fedora.mirror.angkasa.id/pub/fedora-secondary
 http://altfedora.mirror.angkasa.id/pub/alt
 http://mirror.nonstop.co.il/fedora/linux
 http://www.fedora.is/fedora
+http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux
 http://ftp.iij.ad.jp/pub/linux/Fedora
 http://ftp.iij.ad.jp/pub/linux/centos-stream
-http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux
 http://ftp.riken.jp/Linux/fedora
 http://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux
 http://fedora.mirror.liquidtelecom.com/fedora/linux
@@ -83,6 +83,7 @@ http://mirror.ps.kz/fedora
 http://mirror.ps.kz/centos-stream
 http://mirror.vpsnet.com/fedora/linux
 http://fedora.mirror.root.lu
+http://mirror.ihost.md/fedora
 http://repo.fedora.md/fedora/linux
 http://fedora.mirror.wearetriple.com/linux
 http://ftp.nluug.nl/pub/os/Linux/distr/fedora/linux
@@ -96,7 +97,6 @@ http://mirror.2degrees.nz/fedora/linux
 http://ftp.dei.uc.pt/pub/linux/fedora
 http://mirrors.ptisp.pt/fedora
 http://mirrors.nav.ro/fedora/linux
-http://mirror.etf.bg.ac.rs/fedora
 http://mirror.linux-ia64.org/fedora/linux
 http://mirror.yandex.ru/fedora/linux
 http://mirror.yandex.ru/fedora-secondary
@@ -151,11 +151,8 @@ http://mirror.tornadovps.com/pub/fedora/linux
 http://mirror.usi.edu/pub/fedora/linux
 http://mirror.web-ster.com/fedora
 http://nnenix.mm.fcix.net/fedora/linux
+http://ohioix.mm.fcix.net/fedora/linux
 http://ord.mirror.rackspace.com/fedora
 http://packages.oit.ncsu.edu/fedora/linux
 http://paducahix.mm.fcix.net/fedora/linux
-http://pubmirror1.math.uh.edu/fedora-buffet/fedora/linux
-http://pubmirror2.math.uh.edu/fedora-buffet/fedora/linux
-http://pubmirror2.math.uh.edu/fedora-buffet/fedora-secondary
-http://pubmirror3.math.uh.edu/fedora-buffet/fedora/linux
 http://ridgewireless.mm.fcix.net/fedora/linux
