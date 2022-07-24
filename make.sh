@@ -20,6 +20,9 @@ run_release(){
   git tag $(date +%Y%m%d)
   git push
   git push --tags
+  for package in digitalsparky/acng:latest digitalsparky/acng:latest-au digitalsparky/acng:latest-uk digitalsparky/acng:latest-us; do
+    docker push $package
+  done
 }
 
 run_build(){
