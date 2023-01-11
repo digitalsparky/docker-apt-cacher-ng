@@ -21,6 +21,7 @@ run_release(){
     echo "No commits are pending! Please commit before you release."
     exit 1
   fi
+
   git tag $(git rev-parse --short HEAD)
   git push
   git push --tags
