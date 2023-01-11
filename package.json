@@ -30,7 +30,7 @@
     "chai": "^4.3.4",
     "cheerio": "^1.0.0-rc.10",
     "coffeescript": "^2.6.1",
-    "mocha": "^9.1.3"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
