@@ -3,6 +3,8 @@ http://mirror.crucial.com.au/fedora/linux
 http://fedora.mirror.digitalpacific.com.au/linux
 http://ftp.iinet.net.au/pub/fedora/linux
 http://ftp.swin.edu.au/fedora
+http://gsl-syd.mm.fcix.net/fedora/linux
+http://lchs.mm.fcix.net/fedora/linux
 http://mirror.aarnet.edu.au/pub/fedora/linux
 http://mirror.realcompute.io/fedora/linux
 http://fedora.cu.be/linux
@@ -66,16 +68,16 @@ http://mirror.in2p3.fr/pub/fedora/linux
 http://lon.mirror.rackspace.com/fedora
 http://ftp.otenet.gr/linux/fedora/linux
 http://hkg.mirror.rackspace.com/fedora
+http://mirror.szerverem.hu/fedora/linux
 http://fedora.mirror.angkasa.id/pub/fedora/linux
 http://fedora.mirror.angkasa.id/pub/fedora-secondary
 http://altfedora.mirror.angkasa.id/pub/alt
 http://mirror.nonstop.co.il/fedora/linux
 http://www.fedora.is/fedora
-http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux
 http://ftp.iij.ad.jp/pub/linux/Fedora
 http://ftp.iij.ad.jp/pub/linux/centos-stream
+http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux
 http://ftp.riken.jp/Linux/fedora
-http://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux
 http://fedora.mirror.liquidtelecom.com/fedora/linux
 http://mirror.ps.kz/fedora
 http://mirror.ps.kz/centos-stream
@@ -89,8 +91,6 @@ http://ftp.nluug.nl/pub/os/Linux/distr/fedora/linux
 http://ftp.nluug.nl/os/Linux/distr/fedora-secondary
 http://ftp.tudelft.nl/download.fedora.redhat.com/linux
 http://mirror.nl.leaseweb.net/fedora/linux
-http://mirror.serverion.com/fedora
-http://mirror.serverion.com/centos-stream
 http://mirror.theory7.net/fedora/fedora
 http://mirror.2degrees.nz/fedora/linux
 http://mirror.2degrees.nz/fedora-alt

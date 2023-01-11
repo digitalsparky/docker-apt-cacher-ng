@@ -7,6 +7,8 @@ http://mirror.alwyzon.net/centos-stream
 http://mirror.digitalnova.at/epel
 http://epel.mirror.digitalpacific.com.au
 http://fedora.mirror.serversaustralia.com.au/epel
+http://gsl-syd.mm.fcix.net/epel
+http://lchs.mm.fcix.net/epel
 http://mirror.aarnet.edu.au/pub/epel
 http://mirror.overthewire.com.au/pub/epel
 http://mirror.realcompute.io/epel
@@ -43,6 +45,7 @@ http://mirrors.bfsu.edu.cn/fedora-altarch
 http://mirrors.tuna.tsinghua.edu.cn/epel
 http://mirrors.tuna.tsinghua.edu.cn/centos-stream
 http://edgeuno-bog2.mm.fcix.net/epel
+http://edgeuno-bog2.mm.fcix.net/centos-stream
 http://ftp.fi.muni.cz/pub/linux/fedora/epel
 http://ftp.fi.muni.cz/pub/linux/fedora/alt
 http://ftp.fi.muni.cz/pub/linux/centos-stream
@@ -94,6 +97,7 @@ http://hk.mirrors.thegigabit.com/epel
 http://mirror.01link.hk/epel
 http://mirror.01link.hk/centos-stream
 http://ftp.bme.hu/epel
+http://mirror.szerverem.hu/epel
 http://epel.mirror.angkasa.id/pub/epel
 http://kartolo.sby.datautama.net.id/EPEL
 http://kartolo.sby.datautama.net.id/centos-stream
@@ -115,8 +119,6 @@ http://it2.mirror.vhosting-it.com/centos-stream-all
 http://ftp.iij.ad.jp/pub/linux/Fedora/epel
 http://ftp.riken.jp/Linux/fedora/epel
 http://ftp.riken.jp/Linux/centos-stream
-http://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/epel
-http://ftp.yz.yamagata-u.ac.jp/pub/linux/centos-stream
 http://mirror-jp.misakamikoto.network/fedora-epel
 http://epel.mirror.liquidtelecom.com/epel
 http://mirror.sabay.com.kh/epel
@@ -138,7 +140,6 @@ http://mirror.lagoon.nc/epel
 http://epel.mirror.wearetriple.com
 http://ftp.nluug.nl/pub/os/Linux/distr/fedora-epel
 http://mirror.nl.leaseweb.net/epel
-http://mirror.serverion.com/epel
 http://mirror.theory7.net/fedora/fedora-epel
 http://mirror.theory7.net
 http://mirror.wd6.net/epel
@@ -200,8 +201,6 @@ http://linux-mirrors.fnal.gov/linux/fedora/epel
 http://linux-mirrors.fnal.gov/linux/centos-stream
 http://mirror.arizona.edu/fedora-epel
 http://mirror.atl.genesisadaptive.com/epel
-http://mirror.clarkson.edu/fedora/epel
-http://mirror.clarkson.edu/centos9
 http://mirror.coastal.edu/epel
 http://mirror.cogentco.com/pub/linux/epel
 http://mirror.dal.nexril.net/fedora-epel
@@ -218,7 +217,6 @@ http://mirror.grid.uchicago.edu/pub/linux/centos-stream
 http://mirror.lshiy.com/epel
 http://mirror.lstn.net/fedora-epel
 http://mirror.metrocast.net/fedora/epel
-http://mirror.pit.teraswitch.com/fedora/epel
 http://mirror.rnet.missouri.edu/epel
 http://mirror.sfo12.us.leaseweb.net/epel
 http://mirror.siena.edu/epel
@@ -245,6 +243,7 @@ http://mirror.usi.edu/pub/alt
 http://mirror.usi.edu/pub/fedora-secondary
 http://mirror.usi.edu/pub/centos-stream
 http://mnvoip.mm.fcix.net/epel
+http://nnenix.mm.fcix.net/epel
 http://ohioix.mm.fcix.net/epel
 http://opencolo.mm.fcix.net/epel
 http://ord.mirror.rackspace.com/epel
