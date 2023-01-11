@@ -17,17 +17,17 @@ shift
 ####
 
 run_release(){
-  if ! [[ `git status --porcelain` ]]; then
-    echo "No commits are pending! Please commit before you release."
-    exit 1
+  if [ -n "$(git cherry -v)" ]; then
+    echo "Ready to go, tagging and pushing!"
+    git tag $(git rev-parse --short HEAD)
+    git push
+    git push --tags
+    for package in digitalsparky/acng:latest digitalsparky/acng:latest-au digitalsparky/acng:latest-uk digitalsparky/acng:latest-us; do
+      docker push $package
+    done
+  else
+    echo "You don't have any commits ready to be pushed, please commit then run release to tag and push.";
   fi
-
-  git tag $(git rev-parse --short HEAD)
-  git push
-  git push --tags
-  for package in digitalsparky/acng:latest digitalsparky/acng:latest-au digitalsparky/acng:latest-uk digitalsparky/acng:latest-us; do
-    docker push $package
-  done
 }
 
 run_build(){
