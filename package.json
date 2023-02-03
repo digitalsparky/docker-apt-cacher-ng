@@ -26,7 +26,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-async-to-module-method": "^6.2.4",
-    "babel-preset-env": "^0.0.0",
+    "babel-preset-env": "^1.7.0",
     "chai": "^4.3.7",
     "cheerio": "^1.0.0-rc.10",
     "coffeescript": "^2.6.1",
