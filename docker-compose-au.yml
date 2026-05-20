@@ -10,6 +10,7 @@ services:
     volumes:
       - apt-cacher-ng-vol:/var/cache/apt-cacher-ng:rw
     restart: always
+    init: true
 
 networks:
   acng:
