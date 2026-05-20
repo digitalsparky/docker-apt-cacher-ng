@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
-    "braces": "^3.0.2",
+    "braces": "^3.0.3",
     "chokidar": "^3.5.2",
     "debug": "^4.3.3",
     "glob-parent": "^6.0.2",
